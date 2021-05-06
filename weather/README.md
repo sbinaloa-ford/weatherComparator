@@ -17,4 +17,5 @@ For reporting, go to target folder, see html , json or xml reporting. Open the h
 
 
 Also to check for any other city , you need to go to com.automation.weather.resoucres folder and update the city name in json
+
 If you want to run for multiple cities, then you can go for scenario_outline and need to tweak  little bit
