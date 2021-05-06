@@ -1,3 +1,5 @@
+This project compares weather reporting done by 2 sources.
+
 Dependency: Java,Maven
 
 Libraries used: Selenium, Cucumber, MasterThought  Reporting, Rest Assured, Json-simple
