@@ -1,0 +1,4 @@
+Requirements:
+IDE used for development: Eclipse but you can use any other ide as well
+ChromeDriver: please update the driverpath in global.properties file according to your version of chrome
+GhecoDriver: please update the driverpath in global.properties file according to your version of firefox
