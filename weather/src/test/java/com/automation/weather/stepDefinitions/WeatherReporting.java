@@ -51,7 +51,6 @@ public class WeatherReporting extends Base{
 	    if(locators.getSelectedCityTemperature().isDisplayed()){
 	    	String temp = locators.getSelectedCityTemperature().getText();
 	    	weatherUiTemp = Float.parseFloat(temp.substring(0, temp.length()-1));
-	    	System.out.println(weatherUiTemp);
 	    }
 	}
 	

@@ -19,7 +19,7 @@ public class RestLogic extends Base{
 		 request.baseUri(getWeatherRestUrl());
 		 request.basePath("/weather");
 		 response = request.queryParam("q", getCityName()) 
-		                    .queryParam("appid", "2b1fd2d7f77ccf1b7de9b441571b39b8") 
+		                    .queryParam("appid", getApiKey()) 
 		                    .get();
 		 
 		 String jsonString = response.asString();
@@ -31,7 +31,6 @@ public class RestLogic extends Base{
 		 Map<String, String> main = response.jsonPath().getMap("main");
 		 restTemp = Float.parseFloat(String.valueOf(main.get("temp")));
 		 restTemp = (float) (restTemp - 273.15);
-		 System.out.println(restTemp);
 	}
 	
 	public void comparator() {

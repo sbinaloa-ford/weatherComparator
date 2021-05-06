@@ -62,6 +62,10 @@ public class Base {
 		return properties.getProperty("weatheRestUrl");		
 	}
 	
+	public static String getApiKey() {
+		return properties.getProperty("apiKey");		
+	}
+	
 	public static String getInputJson() {
 		return properties.getProperty("inputJson");		
 	}
