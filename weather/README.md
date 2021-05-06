@@ -1,6 +1,7 @@
 Assignment for UI Test Automation
 
 Dependency: Java,Maven
+
 Libraries used: Selenium, Cucumber, MasterThought  Reporting, Rest Assured, Json-simple
 
 Run  from cmd:
