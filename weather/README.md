@@ -16,5 +16,5 @@ Go to weather/src/test/java/com/automation/weather/runner/TestRunner.java and ru
 For reporting, go to target folder, see html , json or xml reporting. Open the html report in browser
 
 
-Also to check for any other city , you need to go to com.automation.resoucres folder and update the city name in json
+Also to check for any other city , you need to go to com.automation.weather.resoucres folder and update the city name in json
 If you want to run for multiple cities, then you can go for scenario_outline and need to tweak  little bit
