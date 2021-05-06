@@ -1,4 +1,4 @@
 Requirements:
 IDE used for development: Eclipse but you can use any other ide as well
-ChromeDriver: please download  and update the driverpath in global.properties file according to your version of chrome
-GhecoDriver: please download and update the driverpath in global.properties file according to your version of firefox
+ChromeDriver: please download  and update the driverpath in global.properties file under com.automation.weather package according to your version of chrome
+GhecoDriver: please download and update the driverpath in global.properties file com.automation.weather package according to your version of firefox
