@@ -8,7 +8,7 @@ Run  from cmd:
 Go to root folder of project : weather
 And then run command mvn test
 
-If there is a problem from cmd:
+Run from IDE:
 Go to weather/src/test/java/com/automation/weather/runner/TestRunner.java and run as junit
 
 
